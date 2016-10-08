@@ -1,0 +1,46 @@
+body {
+	height: 1000px;
+	width: 1000px;
+}
+header {
+	background: green;
+}
+
+nav {
+	background: blue;
+	height: 40px;
+}
+
+#left{
+	background: red;
+	position: relative;
+
+}
+
+#right{
+	background: yellow;
+	position: relative;
+	
+}
+#mai {
+	background: orange;
+	position: relative;
+	left: 90px;
+	height: 400px;
+	width: 600px;
+}
+footer{
+	background: purple;
+}
+header,footer{
+	height: 10%;
+}
+
+#left,#right{
+	height: 400px;
+	width: 90px;
+}
+header,nav,#left,#right,footer,#mai{
+	text-align: center;
+	padding: none;
+}
